@@ -1,0 +1,330 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.clear{
+    clear: both;
+}
+
+header .box1{
+width: 100%;
+height: 100px;
+background-color: rgb(44,62,80);
+color: white;
+position: fixed;
+z-index: 555555;
+}
+
+header h1{
+    float: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    margin-top: 35px;
+    margin-left: 70px;
+}
+
+header  ul li{
+    float: right;
+    margin-right: 50px;
+    list-style: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    margin-top: 40px;
+
+}
+
+/* s2 */
+.s2{
+    width: 100%;
+    height: 820px;
+    background-color: rgb(26,188,156);
+}
+
+.s2 img{
+    width: 240px;
+    height: 250px;
+    margin: 210px 40%;
+    margin-bottom: 40px;
+}
+
+.s2 h1{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.s2 i{
+    color: white;
+    font-size: 2rem;
+    margin: 35px 48%;
+}
+
+.s2 hr{
+    width: 112px;
+    height: 4px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    margin-left: 28%;
+}
+
+.s2 p{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* s3 */
+.s3 {
+    width: 100%;
+    height: 900px;
+    color: rgb(44,62,80);
+}
+.s3 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 85px;
+    font-size: 3rem;
+}
+
+.s3 i{
+    color: rgb(44,62,80);
+    font-size: 2rem;
+    margin: 40px 48%;
+}
+
+.s3 .boxes{
+    width: 90%;
+    margin: auto;
+}
+
+.s3 .boxes .box{
+    float: left;
+    width: 28%;
+    margin: 25px 32px;
+    position: relative;
+
+}
+
+.s3 .boxes .box img{
+    width: 100%;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.s3 .boxes .box .color{
+    position: absolute;
+    background-color: rgba(26, 188, 156, 0.753);
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+    border-radius: 10px;
+}
+
+.s3 .boxes .box:hover .color{
+    opacity: 1;
+
+}
+
+.s3 .boxes .box .color h1{
+    font-size: 90px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20%;
+}
+
+
+
+/* s4 */
+.s4{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(26,188,156);
+}
+.s4 h1{
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+padding-top: 90px;}
+
+.s4 i{
+    color: white;
+    font-size: 2rem;
+    margin: 40px 48%;
+}
+
+
+.s4 p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.s4 .boxes{
+    width: 60%;
+    margin: auto;
+}
+
+.s4 .box-left{
+    float: left;
+    width: 47%
+}
+
+.s4 .box-right{
+    float: right;
+    width: 47%;
+}
+
+
+.button .box{
+    width: 100%;
+    height: 140px;
+    text-align: center;
+    background-color: rgb(26,188,156);
+
+}
+.button .box a{
+    text-decoration: none;
+    color: white;
+    border-color: white;
+    padding: 18px 35px;
+    background-color: rgb(26,188,156);
+    margin: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid white;
+}
+
+.button .box a:hover{
+    background-color: white;
+    border:none;
+    color:black;
+    transition: 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+/* s5 */
+.s5{
+    width: 100%;
+    height: 650px ;
+    background-color: white;
+}
+.s5 h1{
+    color: rgb(44,62,80);
+    text-align: center;
+    margin-top: 80px;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.s5 i{
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-left: 48%;
+    margin-bottom: 50px;
+    color: rgb(44,62,80);
+}
+
+.s5 input{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-width: 1px;
+    font-size: 1.5px;
+    margin-left: 24%;
+    margin-bottom: 60px; 
+    padding: 25px;
+    width: 750px;
+    border-color:  #ced4da;   
+}
+
+.s5 ::placeholder{
+    font-size: 1.5rem;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.s5 textarea{
+    height: 100px;
+    width: 750px;
+    margin-left: 24%;
+    border-width: 1px;
+    border-color: #ced4da;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    padding-left: 25px;
+    margin-bottom: 50px;
+}
+
+
+.send{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+}
+
+.send a {
+    margin-top: 100px;
+    margin-left: 25%;
+    padding: 20px 30px;
+    background-color: #72c7b7;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/* s6 */
+
+footer .s6 {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(44,62,80);
+    text-align: center;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer .s6 a{
+    color: rgb(26,188,156);
+}
+
+footer .s6 .box{
+    float: left;
+    text-align: center;
+   margin-left: 200px;
+   margin-top: 90px;
+   font-size: 1rem;
+}
+
+footer .s6 i{
+    border-radius: 50%;
+    border-color: white;
+    border: 2px solid white;
+    padding: 10px 13px;
+    margin: 10px;
+    background-color: rgb(44,62,80);
+}
+
+ footer .s7 {
+    background-color: #1a252f;
+    width: 100%;
+    height: 72px;
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
